@@ -1,6 +1,16 @@
+* {
+    font-family: Roboto;
+}
+
 body {
-    background: red;
-    h1 {
-        color: blue;
-    }
+    margin: 0;
+    background-color: #f6f6f6;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+}
+p {
+    font-weight: 300;
 }
