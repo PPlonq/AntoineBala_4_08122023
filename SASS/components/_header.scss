@@ -3,7 +3,7 @@ header {
     width: 100%;
 
     .header-box {
-        background-color: #f6f6f6;
+        background-color: $main-background-color;
         box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
     }
 }
@@ -14,7 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 17px;
-    background-color: #eaeaea;
+    background-color: $secondary-background-color;
 
     .search-icon {
         padding-left: 25%;
@@ -28,7 +28,7 @@ header {
     input {
         background-color: #eaeaea;
         text-align: left;
-        border: 1px solid var(--main-bg-color);
+        border: 1px solid $secondary-background-color;
         height: 48px;
         width: 100%;
         font-size: 16px;
