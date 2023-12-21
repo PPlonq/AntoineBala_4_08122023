@@ -1,0 +1,36 @@
+.hero-section {
+    background-color: $secondary-background-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0 50px 0;
+    p {
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding: 0 0 15px 0;
+    }
+}
+.fonctionnement-section {
+    background-color: $main-background-color;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 5px 35px 5px;
+    h2 {
+        margin: 40px 0 0 0;
+        padding: 0 0 0 15px;
+    }
+}
+
+.restaurants-section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 35px 20px;
+    justify-content: space-between;
+    background-color: $secondary-background-color;
+    h2 {
+        margin: 40px 0 0 0;
+    }
+}

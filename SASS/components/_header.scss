@@ -14,7 +14,7 @@ header {
     justify-content: center;
     align-items: center;
     gap: 17px;
-    background-color: $secondary-background-color;
+    background-color: $third-background-color;
 
     .search-icon {
         padding-left: 25%;
@@ -28,7 +28,7 @@ header {
     input {
         background-color: #eaeaea;
         text-align: left;
-        border: 1px solid $secondary-background-color;
+        border: 1px solid $third-background-color;
         height: 48px;
         width: 100%;
         font-size: 16px;
