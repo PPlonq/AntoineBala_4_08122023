@@ -8,17 +8,31 @@
     color: white;
 }
 .fonctionnement-button {
+    position: relative;
     display: flex;
-    justify-content: center;
+    width: 325px;
     align-items: center;
     height: 70px;
     background-color: $secondary-background-color;
     border-radius: 20px;
-    margin: 20px;
+    margin: 20px auto;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     i {
+        margin: 0 30px;
+        width: 20px;
+    }
+    .bullet-list {
         position: absolute;
-        left: 11%;
-        padding: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 25px;
+        color: white;
+        text-align: center;
+        background-color: #9356dc;
+        font-size: 14px;
+        left: -10px;
     }
 }

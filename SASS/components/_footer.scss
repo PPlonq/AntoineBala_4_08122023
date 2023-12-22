@@ -1,14 +1,22 @@
 footer {
     margin: 0;
     background-color: #353535;
-    position: absolute;
-    width: 100%;
-
-    p {
+    padding: 35px;
+    a {
         color: white;
     }
-}
-
-.sitewide-links {
-    padding: 0 22px 0 25px;
+    .sitewide-links {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        i {
+            margin: 0 20px 0 0;
+            width: 12px;
+        }
+    }
+    .logo-footer {
+        filter: invert(100%);
+        width: 30%;
+        margin-bottom: 20px;
+    }
 }
