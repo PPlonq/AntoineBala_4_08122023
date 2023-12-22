@@ -1,8 +1,7 @@
 .cards {
     justify-content: center;
-
     border-radius: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
     background-color: $main-background-color;
     img {
         width: 100%;
@@ -11,6 +10,10 @@
         border-radius: 15px 15px 0 0;
     }
     .cards-content {
+        margin: 5px 0 5px 0;
         padding: 0 0 0 15px;
+    }
+    .cards-content + p {
+        margin-bottom: 15px;
     }
 }

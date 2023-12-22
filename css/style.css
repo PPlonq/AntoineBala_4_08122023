@@ -39,12 +39,12 @@ body {
 .restaurants-section {
   display: flex;
   flex-direction: column;
-  padding: 20px 20px 35px 20px;
+  padding: 20px 20px 100px 20px;
   justify-content: space-between;
   background-color: #f6f6f6;
 }
 .restaurants-section h2 {
-  margin: 40px 0 0 0;
+  margin: 40px 0 10px 0;
 }
 
 footer {
@@ -55,6 +55,10 @@ footer {
 }
 footer p {
   color: white;
+}
+
+.sitewide-links {
+  padding: 0 22px 0 25px;
 }
 
 header {
@@ -108,7 +112,6 @@ header .header-box {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 5px;
   height: 70px;
   background-color: #f6f6f6;
   border-radius: 20px;
@@ -116,7 +119,9 @@ header .header-box {
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 }
 .fonctionnement-button i {
-  padding: 0 35px 0 0;
+  position: absolute;
+  left: 11%;
+  padding: 3px;
 }
 
 .logo-header {
@@ -130,12 +135,14 @@ header .header-box {
 
 .logo-footer {
   filter: invert(100%);
+  width: 30%;
+  padding: 22px 0 5px 25px;
 }
 
 .cards {
   justify-content: center;
   border-radius: 15px;
-  margin-top: 15px;
+  margin-top: 20px;
   background-color: #ffffff;
 }
 .cards img {
@@ -145,7 +152,15 @@ header .header-box {
   border-radius: 15px 15px 0 0;
 }
 .cards .cards-content {
+  margin: 5px 0 5px 0;
   padding: 0 0 0 15px;
+}
+.cards .cards-content + p {
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */
