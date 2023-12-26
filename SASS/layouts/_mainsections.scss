@@ -17,7 +17,7 @@
     background-color: $main-background-color;
     display: flex;
     flex-direction: column;
-    padding: 35px 5px 35px 5px;
+    padding: 20px 5px 35px 5px;
     h2 {
         margin: 40px 0 0 0;
         padding: 0 0 0 15px;
@@ -32,5 +32,44 @@
     background-color: $secondary-background-color;
     h2 {
         margin: 40px 0 10px 0;
+    }
+}
+
+.menu-hero-section img {
+    width: 100%;
+    height: 275px;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.menu-section {
+    background: $secondary-background-color;
+    border-top: 20px solid $secondary-background-color;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+    .menu-subsection {
+    }
+    .menu-main-title h1 {
+        font-family: Shrikhand;
+        font-size: 28px;
+        font-weight: 400;
+        padding: 0 15px;
+    }
+    .menu-subtitles {
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 300;
+        width: 40px;
+        margin: 20px 0 0 20px;
+        border-bottom: solid 3px $main-background-button-color;
+        line-height: 5px;
+    }
+    .order-div {
+        display: flex;
+        margin: 20px 0 40px 0;
+        justify-content: center;
     }
 }

@@ -28,7 +28,7 @@ body {
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  padding: 35px 5px 35px 5px;
+  padding: 20px 5px 35px 5px;
 }
 .fonctionnement-section h2 {
   margin: 40px 0 0 0;
@@ -44,6 +44,43 @@ body {
 }
 .restaurants-section h2 {
   margin: 40px 0 10px 0;
+}
+
+.menu-hero-section img {
+  width: 100%;
+  height: 275px;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.menu-section {
+  background: #f6f6f6;
+  border-top: 20px solid #f6f6f6;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: -60px;
+}
+.menu-section .menu-main-title h1 {
+  font-family: Shrikhand;
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0 15px;
+}
+.menu-section .menu-subtitles {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 300;
+  width: 40px;
+  margin: 20px 0 0 20px;
+  border-bottom: solid 3px #99e2d0;
+  line-height: 5px;
+}
+.menu-section .order-div {
+  display: flex;
+  margin: 20px 0 40px 0;
+  justify-content: center;
 }
 
 footer {
@@ -118,7 +155,7 @@ header .logo-header {
 .default-button {
   width: 218px;
   height: 50px;
-  background: linear-gradient(193deg, #9356dc -11.44%, #ff79da 123.93%);
+  background: linear-gradient(360deg, #9356dc -11.44%, #ff79da 123.93%);
   border-radius: 30px;
   border: none;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -160,6 +197,20 @@ header .logo-header {
   left: -10px;
 }
 
+.menu-button {
+  width: 325px;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+  margin: 15px auto;
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  padding: 10px;
+}
+.menu-button h3,
+.menu-button p {
+  margin: 5px;
+}
+
 .cards {
   justify-content: center;
   border-radius: 15px;
@@ -180,13 +231,6 @@ header .logo-header {
 }
 .cards .cards-content + p {
   margin-bottom: 15px;
-}
-.cards input {
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  left: 90%;
-  cursor: pointer;
 }
 .cards .heart {
   position: absolute;
