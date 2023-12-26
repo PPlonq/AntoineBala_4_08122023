@@ -123,6 +123,7 @@ header .logo-header {
   border: none;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: white;
+  cursor: pointer;
 }
 
 .fonctionnement-button {
@@ -135,6 +136,7 @@ header .logo-header {
   border-radius: 20px;
   margin: 20px auto;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
 }
 .fonctionnement-button .icon-purple {
   color: #9356dc;
@@ -163,6 +165,8 @@ header .logo-header {
   border-radius: 15px;
   margin-top: 20px;
   background-color: #ffffff;
+  position: relative;
+  cursor: pointer;
 }
 .cards img {
   width: 100%;
@@ -176,6 +180,19 @@ header .logo-header {
 }
 .cards .cards-content + p {
   margin-bottom: 15px;
+}
+.cards input {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 90%;
+  cursor: pointer;
+}
+.cards .heart {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  left: 90%;
 }
 
 a {

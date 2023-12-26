@@ -3,6 +3,8 @@
     border-radius: 15px;
     margin-top: 20px;
     background-color: $main-background-color;
+    position: relative;
+    cursor: pointer;
     img {
         width: 100%;
         height: 231px;
@@ -15,5 +17,18 @@
     }
     .cards-content + p {
         margin-bottom: 15px;
+    }
+    input {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 90%;
+        cursor: pointer;
+    }
+    .heart {
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        left: 90%;
     }
 }
