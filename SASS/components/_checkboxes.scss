@@ -1,0 +1,16 @@
+.heart {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 90%;
+    top: 83%;
+    .heart-fill {
+        color: linear-gradient(0deg, #9356dc, #ff79da);
+        position: inherit;
+        opacity: 0;
+    }
+    .heart-fill:hover {
+        transition: 1s;
+        opacity: 100;
+    }
+}

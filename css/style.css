@@ -8,6 +8,28 @@ body {
   overflow-x: hidden;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+a a:visited {
+  color: black;
+  text-decoration: none;
+}
+a a:hover {
+  color: black;
+  text-decoration: none;
+}
+a a:focus {
+  color: black;
+  text-decoration: none;
+}
+a a:hover,
+a a:active {
+  color: black;
+  text-decoration: none;
+}
+
 .hero-section {
   background-color: #f6f6f6;
   display: flex;
@@ -62,7 +84,7 @@ body {
   flex-direction: column;
   margin-top: -60px;
 }
-.menu-section .menu-main-title h1 {
+.menu-section .menu-main-title h2 {
   font-family: Shrikhand;
   font-size: 28px;
   font-weight: 400;
@@ -115,6 +137,12 @@ header .header-box {
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.15);
   position: relative;
   padding: 14px 89px 13px 89px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header i {
+  margin: 0 0 0 -70px;
 }
 header .logo-header {
   box-sizing: border-box;
@@ -126,11 +154,9 @@ header .logo-header {
 
 .header-subsection {
   display: flex;
-  width: 100%;
-  height: 50px;
-  justify-content: center;
-  align-items: center;
+  padding-left: 20%;
   gap: 17px;
+  background-color: #eaeaea;
   background-color: #eaeaea;
 }
 .header-subsection .search-icon {
@@ -160,6 +186,7 @@ header .logo-header {
   border: none;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
   color: white;
+  padding: 15px;
   cursor: pointer;
 }
 
@@ -232,15 +259,26 @@ header .logo-header {
 .cards .cards-content + p {
   margin-bottom: 15px;
 }
-.cards .heart {
+
+a {
+  text-decoration: none;
+}
+
+.heart {
   position: absolute;
   justify-content: center;
   align-items: center;
   left: 90%;
+  top: 83%;
 }
-
-a {
-  text-decoration: none;
+.heart .heart-fill {
+  color: linear-gradient(0deg, #9356dc, #ff79da);
+  position: inherit;
+  opacity: 0;
+}
+.heart .heart-fill:hover {
+  transition: 1s;
+  opacity: 100;
 }
 
 /*# sourceMappingURL=style.css.map */
