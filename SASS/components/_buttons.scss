@@ -1,6 +1,4 @@
 .default-button {
-    width: 218px;
-    height: 50px;
     background: $button-gradient;
     border-radius: 30px;
     border: none;
@@ -9,49 +7,23 @@
     padding: 15px;
     cursor: pointer;
 }
-.fonctionnement-button {
-    position: relative;
-    display: flex;
-    width: 325px;
-    align-items: center;
-    height: 70px;
-    background-color: $secondary-background-color;
-    border-radius: 20px;
-    margin: 20px auto;
-    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-    .icon-purple {
-        color: $main-purple;
-    }
-    i {
-        margin: 0 30px;
-        width: 20px;
-    }
-    .bullet-list {
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 20px;
-        height: 20px;
-        border-radius: 25px;
-        color: white;
-        text-align: center;
-        background-color: $main-purple;
-        font-size: 14px;
-        left: -10px;
-    }
+.default-button:hover {
+    transition: ease-in-out 0.2s;
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }
+
 .menu-button {
-    width: 325px;
-    background-color: #f6f6f6;
-    border-radius: 10px;
-    margin: 15px auto;
+    background: $button-gradient;
+    border-radius: 30px;
+    border: none;
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    color: white;
+    padding: 15px 40px;
     cursor: pointer;
-    padding: 10px;
-    h3,
-    p {
-        margin: 5px;
-    }
+}
+.menu-button:hover {
+    transition: ease-in-out 0.2s;
+    transform: scale(1.05);
+    filter: brightness(1.2);
 }

@@ -4,13 +4,23 @@
     align-items: center;
     left: 90%;
     top: 83%;
-    .heart-fill {
-        color: linear-gradient(0deg, #9356dc, #ff79da);
-        position: inherit;
-        opacity: 0;
+    font-size: 22px;
+    z-index: 9999999;
+    pointer-events: all;
+    .fa-solid {
+        visibility: hidden;
+        color: transparent;
+        background-clip: text;
+        background-image: $heart-gradient;
     }
-    .heart-fill:hover {
-        transition: 1s;
-        opacity: 100;
+    i {
+        position: absolute;
     }
+}
+.heart:hover .fa-regular {
+    visibility: hidden;
+}
+
+.heart:hover .fa-solid {
+    visibility: visible;
 }
