@@ -53,11 +53,25 @@
 
     .menu-subsection {
     }
-    .menu-main-title h2 {
-        font-family: Shrikhand;
-        font-size: 28px;
-        font-weight: 400;
-        padding: 0 15px;
+    .menu-main-title {
+        position: relative;
+        h2 {
+            font-family: Shrikhand;
+            font-size: 28px;
+            font-weight: 400;
+            padding: 0 15px;
+            position: relative;
+        }
+        .heart-title {
+            position: absolute;
+            top: 33%;
+            right: 4%;
+            /* font-weight: 500; */
+            font-size: 23px;
+            i {
+                right: 110%;
+            }
+        }
     }
     .menu-subtitles {
         text-transform: uppercase;

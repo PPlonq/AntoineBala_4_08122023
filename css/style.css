@@ -84,11 +84,25 @@ a a:active {
   flex-direction: column;
   margin-top: -60px;
 }
+.menu-section .menu-main-title {
+  position: relative;
+}
 .menu-section .menu-main-title h2 {
   font-family: Shrikhand;
   font-size: 28px;
   font-weight: 400;
   padding: 0 15px;
+  position: relative;
+}
+.menu-section .menu-main-title .heart-title {
+  position: absolute;
+  top: 33%;
+  right: 4%;
+  /* font-weight: 500; */
+  font-size: 23px;
+}
+.menu-section .menu-main-title .heart-title i {
+  right: 110%;
 }
 .menu-section .menu-subtitles {
   text-transform: uppercase;
