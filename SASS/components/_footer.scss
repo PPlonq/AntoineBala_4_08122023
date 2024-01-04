@@ -2,6 +2,8 @@ footer {
     margin: 0;
     background-color: #353535;
     padding: 35px;
+    @media screen and (min-width: 768px) {
+    }
     a {
         color: white;
     }
@@ -9,6 +11,8 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 10px;
+        @media screen and (min-width: 768px) {
+        }
         i {
             margin: 0 20px 0 0;
             width: 12px;
@@ -18,5 +22,7 @@ footer {
         filter: invert(100%);
         width: 30%;
         margin-bottom: 20px;
+        @media screen and (min-width: 768px) {
+        }
     }
 }

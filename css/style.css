@@ -38,6 +38,11 @@ a a:active {
   text-align: center;
   padding: 15px 0 50px 0;
 }
+@media screen and (min-width: 768px) {
+  .hero-section h1 {
+    font-size: 40px;
+  }
+}
 .hero-section p {
   font-size: 18px;
   font-style: normal;
@@ -54,7 +59,7 @@ a a:active {
 }
 .fonctionnement-section h2 {
   margin: 40px 0 0 0;
-  padding: 0 0 0 15px;
+  padding: 0 0 15px 15px;
 }
 
 .restaurants-section {
@@ -141,7 +146,6 @@ footer .logo-footer {
   width: 30%;
   margin-bottom: 20px;
 }
-
 header {
   margin: 0;
   width: 100%;
@@ -155,8 +159,17 @@ header .header-box {
   align-items: center;
   justify-content: center;
 }
-header i {
-  margin: 0 0 0 -70px;
+header .back-arrow {
+  position: absolute;
+  left: 4%;
+  font-size: 90%;
+  top: 40%;
+}
+@media screen and (min-width: 768px) {
+  header .back-arrow {
+    top: 38%;
+    font-size: 100%;
+  }
 }
 header .logo-header {
   box-sizing: border-box;
@@ -165,10 +178,15 @@ header .logo-header {
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 768px) {
+  header .logo-header {
+    width: 200px;
+    height: 34.202px;
+  }
+}
 
 .header-subsection {
   display: flex;
-  padding-left: 20%;
   gap: 17px;
   background-color: #eaeaea;
   background-color: #eaeaea;
@@ -181,6 +199,16 @@ header .logo-header {
   align-items: center;
   justify-content: center;
   width: 50px;
+}
+@media screen and (min-width: 768px) {
+  .header-subsection .search-icon {
+    padding-left: 39%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .header-subsection .search-icon {
+    padding-left: 43%;
+  }
 }
 .header-subsection input {
   background-color: #eaeaea;
@@ -239,11 +267,8 @@ header .logo-header {
   border-radius: 15px 15px 0 0;
 }
 .cards .cards-content {
-  margin: 5px 0 5px 0;
-  padding: 0 0 0 15px;
-}
-.cards .cards-content + p {
-  margin-bottom: 15px;
+  margin: 0;
+  padding: 5px 0 15px 15px;
 }
 
 .fonctionnement-card {
