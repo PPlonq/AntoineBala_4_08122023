@@ -129,6 +129,13 @@ footer {
   background-color: #353535;
   padding: 35px;
 }
+@media screen and (min-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 35px 0 35px 0;
+  }
+}
 footer a {
   color: white;
 }
@@ -136,6 +143,15 @@ footer .sitewide-links {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+@media screen and (min-width: 768px) {
+  footer .sitewide-links {
+    flex-direction: row;
+    padding-left: 20px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 footer .sitewide-links i {
   margin: 0 20px 0 0;
@@ -146,6 +162,14 @@ footer .logo-footer {
   width: 30%;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  footer .logo-footer {
+    margin-left: 45px;
+    margin-bottom: 0;
+    width: 50%;
+  }
+}
+
 header {
   margin: 0;
   width: 100%;
