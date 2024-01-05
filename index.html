@@ -25,6 +25,9 @@
                 <input type="search" class="search-input" value="Paris, Belleville" />
             </div>
         </header>
+        <div class="loader-overlay">
+            <div class="loader"></div>
+        </div>
         <section class="hero-section">
             <div>
                 <h1>Réservez le menu qui vous convient</h1>
@@ -38,7 +41,7 @@
 
         <section class="fonctionnement-section">
             <div><h2 class="title">Fonctionnement</h2></div>
-            <div class="functionnement-cards-section">
+            <div class="fonctionnement-cards-section">
                 <span class="fonctionnement-card">
                     <span class="bullet-list">1</span>
                     <h3><i class="fa-solid fa-mobile-screen-button"></i>Choisissez un restaurant</h3>
@@ -56,29 +59,31 @@
 
         <section class="restaurants-section">
             <div><h2>Restaurants</h2></div>
-            <div class="cards">
-                <a href="la_palette_du_gout.html"><img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurant La palette du goût" /></a>
-                <h3 class="cards-content">La palette du goût</h3>
-                <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
-                <p class="cards-content">Ménilmontant</p>
-            </div>
-            <div class="cards">
-                <a href="#"><img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="restaurant La note enchantée" /></a>
-                <h3 class="cards-content">La note enchantée</h3>
-                <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
-                <p class="cards-content">Charonne</p>
-            </div>
-            <div class="cards">
-                <a href="#"> <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="restaurant à la française" /></a>
-                <h3 class="cards-content">À la française</h3>
-                <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
-                <p class="cards-content">Cité Rouge</p>
-            </div>
-            <div class="cards">
-                <a href="#"> <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="restaurant Le délice des sens" /></a>
-                <h3 class="cards-content">Le délice des sens</h3>
-                <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
-                <p class="cards-content">Folie-Méricourt</p>
+            <div class="restaurants-card-section">
+                <div class="cards">
+                    <a href="la_palette_du_gout.html"><img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurant La palette du goût" /></a>
+                    <h3 class="cards-content">La palette du goût</h3>
+                    <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
+                    <p class="cards-content">Ménilmontant</p>
+                </div>
+                <div class="cards">
+                    <a href="#"><img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="restaurant La note enchantée" /></a>
+                    <h3 class="cards-content">La note enchantée</h3>
+                    <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
+                    <p class="cards-content">Charonne</p>
+                </div>
+                <div class="cards">
+                    <a href="#"> <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="restaurant à la française" /></a>
+                    <h3 class="cards-content">À la française</h3>
+                    <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
+                    <p class="cards-content">Cité Rouge</p>
+                </div>
+                <div class="cards">
+                    <a href="#"> <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="restaurant Le délice des sens" /></a>
+                    <h3 class="cards-content">Le délice des sens</h3>
+                    <span class="heart"><i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart"></i></span>
+                    <p class="cards-content">Folie-Méricourt</p>
+                </div>
             </div>
         </section>
         <footer>
@@ -90,5 +95,10 @@
                 <a href="#">Contact</a>
             </div>
         </footer>
+        <script>
+            setTimeout(function () {
+                document.body.classList.add("loaded");
+            }, 2000);
+        </script>
     </body>
 </html>

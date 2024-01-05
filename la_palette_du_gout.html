@@ -19,11 +19,16 @@
         <header>
             <div class="header-box">
                 <div>
-                    <a href="index.html"><span class="back-arrow"><i class="fa-solid fa-arrow-left"></i></a></span>
+                    <a href="index.html"
+                        ><span class="back-arrow"><i class="fa-solid fa-arrow-left"></i></span
+                    ></a>
                 </div>
                 <img class="logo-header" src="images/logo/ohmyfood.png" alt="ohmyfood" />
             </div>
         </header>
+        <div class="loader-overlay">
+            <div class="loader"></div>
+        </div>
         <section class="menu-hero-section">
             <div>
                 <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="restaurant La palette du goût" />
@@ -137,7 +142,7 @@
                 <button class="menu-button button-text">Commander</button>
             </div>
         </section>
-        <section></section>
+
         <footer>
             <div><img class="logo-footer" src="images/logo/ohmyfood@2x.svg" alt="" /></div>
             <div class="sitewide-links">
@@ -147,5 +152,10 @@
                 <a href="#">Contact</a>
             </div>
         </footer>
+        <script>
+            setTimeout(function () {
+                document.body.classList.add("loaded");
+            }, 2000);
+        </script>
     </body>
 </html>

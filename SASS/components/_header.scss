@@ -23,13 +23,15 @@ header {
     }
     .logo-header {
         box-sizing: border-box;
-        width: 100%;
+        width: 200px;
+        height: 44px;
         display: flex;
         justify-content: center;
         align-items: center;
         @media screen and (min-width: 768px) {
             width: 200px;
-            height: 34.202px;
+            height: 44px;
+            margin-bottom: 1%;
         }
     }
 }
@@ -44,12 +46,14 @@ header {
         padding-left: 25%;
         display: flex;
         color: #353535;
-        height: 50px;
         align-items: center;
         justify-content: center;
-        width: 50px;
+
         @media screen and (min-width: 768px) {
             padding-left: 39%;
+        }
+        @media screen and (max-width: 768px) {
+            padding-left: 31%;
         }
         @media screen and (min-width: 1024px) {
             padding-left: 43%;

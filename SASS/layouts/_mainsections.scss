@@ -23,9 +23,29 @@
     display: flex;
     flex-direction: column;
     padding: 20px 5px 35px 5px;
+    @media screen and (min-width: 1024px) {
+        padding: 10px 10% 40px;
+    }
     h2 {
         margin: 40px 0 0 0;
         padding: 0 0 15px 15px;
+        @media screen and (min-width: 1024px) {
+            padding: 20px 150px 35px 30px;
+        }
+    }
+}
+.fonctionnement-cards-section {
+    @media screen and (min-width: 740px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media screen and (max-width: 1023px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -35,8 +55,22 @@
     padding: 20px 20px 100px 20px;
     justify-content: space-between;
     background-color: $secondary-background-color;
+    @media screen and (min-width: 1024px) {
+        padding: 20px 10% 35px 10%;
+    }
     h2 {
         margin: 40px 0 10px 0;
+        @media screen and (min-width: 1024px) {
+            padding-left: 32px;
+        }
+    }
+}
+.restaurants-card-section {
+    @media screen and (min-width: 740px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 70px;
+        row-gap: 20px;
     }
 }
 
@@ -55,8 +89,8 @@
     display: flex;
     flex-direction: column;
     margin-top: -60px;
-
-    .menu-subsection {
+    @media screen and (min-width: 768px) {
+        margin: -60px 15% 0 15%;
     }
     .menu-main-title {
         position: relative;
@@ -66,6 +100,10 @@
             font-weight: 400;
             padding: 0 15px;
             position: relative;
+            @media screen and (min-width: 768px) {
+                display: flex;
+                justify-content: center;
+            }
         }
         .heart-title {
             position: absolute;
@@ -75,6 +113,12 @@
             font-size: 23px;
             i {
                 right: 110%;
+                @media screen and (min-width: 1024px) {
+                    right: 390%;
+                }
+                @media screen and (min-width: 1440px) {
+                    right: 480%;
+                }
             }
         }
     }
@@ -86,6 +130,15 @@
         margin: 20px 0 0 20px;
         border-bottom: solid 3px $main-background-button-color;
         line-height: 5px;
+        @media screen and (min-width: 768px) {
+            margin: 20px 0 0 15%;
+        }
+        @media screen and (min-width: 1024px) {
+            margin: 20px 0 0 15%;
+        }
+        @media screen and (min-width: 1440px) {
+            margin: 20px 0 0 160px;
+        }
     }
     .order-div {
         display: flex;

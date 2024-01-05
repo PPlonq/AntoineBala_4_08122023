@@ -5,22 +5,26 @@
     left: 90%;
     top: 83%;
     font-size: 22px;
-    z-index: 9999999;
+    z-index: 1;
     pointer-events: all;
-    .fa-solid {
+    &:hover .fa-regular {
         visibility: hidden;
+    }
+
+    &:hover .fa-solid {
+        // visibility: visible;
+        opacity: 1;
+        transition: opacity 0.5s;
+    }
+
+    .fa-solid {
+        // visibility: hidden;
         color: transparent;
         background-clip: text;
         background-image: $heart-gradient;
+        opacity: 0;
     }
     i {
         position: absolute;
     }
-}
-.heart:hover .fa-regular {
-    visibility: hidden;
-}
-
-.heart:hover .fa-solid {
-    visibility: visible;
 }
