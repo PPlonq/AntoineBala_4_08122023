@@ -1,0 +1,21 @@
+#entrees {
+    opacity: 0;
+    animation: fadein 2s forwards;
+}
+#plats {
+    opacity: 0;
+    animation: 2s fadein 2s forwards;
+}
+#desserts {
+    opacity: 0;
+    animation: 2s fadein 4s forwards;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
