@@ -128,6 +128,11 @@ a a:active {
   position: relative;
   z-index: -1;
 }
+@media screen and (min-width: 1440px) {
+  .menu-hero-section img {
+    height: 383px;
+  }
+}
 
 .menu-section {
   background: #f6f6f6;
@@ -598,19 +603,29 @@ body.loaded .content {
   display: block;
 }
 
-#entrees {
+.menu-main-title {
   opacity: 0;
-  animation: fadein 2s forwards;
+  animation: fadein 1s forwards;
 }
 
-#plats {
+#entrees {
   opacity: 0;
   animation: 2s fadein 2s forwards;
 }
 
-#desserts {
+#plats {
   opacity: 0;
   animation: 2s fadein 4s forwards;
+}
+
+#desserts {
+  opacity: 0;
+  animation: 2s fadein 6s forwards;
+}
+
+.order-div {
+  opacity: 0;
+  animation: 1s fadein 5s forwards;
 }
 
 @keyframes fadein {

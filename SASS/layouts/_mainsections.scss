@@ -80,6 +80,9 @@
     object-fit: cover;
     position: relative;
     z-index: -1;
+    @media screen and (min-width: 1440px) {
+        height: 383px;
+    }
 }
 
 .menu-section {
