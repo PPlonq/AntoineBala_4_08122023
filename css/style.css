@@ -78,12 +78,6 @@ a a:active {
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 1023px) {
-  .fonctionnement-cards-section {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
 @media screen and (min-width: 1024px) {
   .fonctionnement-cards-section {
     display: flex;
@@ -322,11 +316,6 @@ header .logo-header {
     padding-left: 39%;
   }
 }
-@media screen and (max-width: 768px) {
-  .header-subsection .search-icon {
-    padding-left: 31%;
-  }
-}
 @media screen and (min-width: 1024px) {
   .header-subsection .search-icon {
     padding-left: 43%;
@@ -389,7 +378,7 @@ header .logo-header {
   border-radius: 15px 15px 0 0;
 }
 .cards .cards-content {
-  font-weight: 1100;
+  font-weight: 700;
   margin: 0;
   padding: 5px 0 15px 15px;
 }
